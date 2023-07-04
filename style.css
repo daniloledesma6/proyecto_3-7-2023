@@ -1,0 +1,252 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #44578d;
+    padding: 0;
+    margin: 0;
+    height: 65px;
+    width: auto;
+}
+
+.animals {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #e7f1f7;
+    font-size: 20px;
+}
+
+.imgfooter {
+    padding: 0;
+    margin-left: 10px;
+    height: 20px;
+    }
+    .divnavbar li a{
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+.divnavbar {
+    padding-top: 65px;
+    margin-top: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #44578d;
+}
+
+.divnavbar ul li a {
+    border-radius: 3px; 
+}
+
+ul li a:hover {
+    background-color: #44578d6b;
+    border-radius: 3px;
+}
+
+.espaciotxt {
+    padding: 0;
+    margin-right:  100px;
+}
+
+.divnavbar form {
+    padding: 0;
+    margin-left: 150px;
+}
+main {
+    padding: 0;
+    display: flex;
+    background-color: #44578d;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(composing-2195541_1280.jpg);
+    text-align: left;
+    width: auto;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.textmain {
+    padding: 0;
+    margin: 0;
+    color: #e7f1f7;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.carrousel {
+    margin: 0;
+    padding: 0;
+    background-color: #44578d;
+    
+}
+.divisor {
+    padding: 0;
+    margin: 0;
+    background-color: #44578d;
+    width: auto;
+    height: 20px;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+    height: 700px;
+    width: auto;
+    background-color:#44578dea;
+}
+
+section div img {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 400px;
+}
+
+.textinfo {
+    padding: 10px;
+    padding-top: 40px;
+    margin: 0;
+    color: #e7f1f7;
+    font-family: 'Lato', sans-serif;
+    }
+
+.containerinfo {
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divisordos {
+    background-color: #44578d;
+    height: 20px;
+}
+footer {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    width: auto;
+    height: 500px;
+    background-color: #172540;
+}
+
+.containerfooteruno {
+    padding: 0;
+    margin: 0;
+}
+.contact {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.textfooter {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.imgfooterx {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 50px;
+}
+
+.containerfooteruno {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerhijo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+
+}
+
+.btn:hover {
+    background-color: #172540;
+    color: white;
+    border: 2px solid white;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.imgmodificar {
+    border-radius: 3px;
+    box-shadow: 2px 2px 15px;
+}
+
+.text {
+   color: aliceblue;
+   padding: 10px;
+   padding-top: 40px;
+   margin: 0;
+   font-family: 'Lato', sans-serif;
+   font-weight: bold;
+}
+
+
+
+@media (max-width: 420px) {
+
+    .textinfo {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .text {
+        padding-top: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+    .imgfooterx {
+        width: auto;
+        height: 30px;
+    }
+    .btn {
+        padding: 5px;
+        margin: 0;
+        font-size: 10px;
+    }
+}
